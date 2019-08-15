@@ -1,0 +1,239 @@
+<!-- <html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="nav-container">
+        <div class="main-items">
+            <div class="nav-item">Home</div>
+            <div class="nav-item">About</div>
+            <div class="nav-item">Cart</div>
+        </div>
+        <div class="nav-item-logo-container">
+            <div class="logo-item">The Company</div>
+            <div class="logo-item">We do it best.</div>
+        </div>
+    </div>
+</body>
+
+</html>
+ -->
+
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Messenger</title>
+</head>
+
+<body>
+    <div id="container" >
+        <div id="header">
+            <div id="friendsearch">
+                    <input id="search" type="text" placeholder="Search for friend" >
+                    <button id="searchsend" onclick="lookup()"><i class="fas fa-search"></i></button>
+            </div>
+            
+
+            <div id="nav">
+                <div id="first">
+                    <div id="img">
+                        <img id="image"
+                            src="file:///Users/francopagella/Desktop/code/week2/css/leah.jpg"
+                            alt="">
+                    </div>
+
+                    <div id="info">
+                        <div id="name">Leah</div>
+                        <div id="state">
+                            <span id="dot">•</span>
+                            <span id="online">Last online at 14:05
+                                </span>
+                            </div>
+                    </div>
+                </div>
+
+
+                <div id="resto">
+                    <div id="call"><i class="fas fa-phone"></i></div>
+                    <div id="video"><i class="fas fa-video"></i></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="main">
+            <div id="friends">
+                <div class="friend" id="leah" onclick="leahcolor()">
+                    <div class="contact" i>Leah</div>
+                    <div class="text" id="leahtext">no problem...</div>
+                </div>
+                <div class="friend" id="jona" onclick="jonacolor()">
+                    <div class="contact">Jona</div>
+                    <div class="text">We are waiting for you...</div>
+                </div>
+                <div class="friend" id="luis" onclick="luiscolor()">
+                    <div class="contact">Luis</div>
+                    <div class="text">See ya...</div>
+                </div>
+                <div class="friend" id="axel">
+                    <div class="contact">Axel</div>
+                    <div class="text">No conversation...</div>
+                </div>
+                <div class="friend" id="tomer">
+                    <div class="contact">Tomer</div>
+                    <div class="text">No conversation...</div>
+                </div>
+                <div class="friend" id="ben">
+                    <div class="contact">Ben</div>
+                    <div class="text">No conversation...</div>
+                </div>
+                <div class="friend" id="franco">
+                    <div class="contact">Franco</div>
+                    <div class="text">No conversation...</div>
+                </div>
+
+                <div class="friend" id="simona">
+                    <div class="contact">Simona</div>
+                    <div class="text">No conversation..</div>
+                </div>
+                <div class="friend" id="shira">
+                    <div class="contact">Shira</div>
+                    <div class="text">No conversation...</div>
+                </div>
+                <div class="friend" id="aly">
+                    <div class="contact">Aly</div>
+                    <div class="text">No conversation...</div>
+                </div>
+                <div class="friend" id="anita">
+                    <div class="contact">Anita</div>
+                    <div class="text">No conversation</div>
+                </div>
+                <div class="friend" id="nunzia">
+                    <div class="contact">Nunzia</div>
+                    <div class="text">No conversation</div>
+                </div>
+            </div>
+            <div id="body">
+                <div id="chat">
+                    <div id="left">
+
+                        <div class="mssg left">
+                            <div class="textmssg" id="txtn1">Franco are you in the cowork?</div>
+                            <div class="hour" id="hr1">11:55</div>
+                        
+                        </div>
+                        <div class="mssg left">
+                                <div class="textmssg" id="txtn2"></div>
+                                <div class="hour" id="hr2"></div>
+                        </div>
+                        <div class="mssg left">
+                                <div class="textmssg" id="txtn3"></div>
+                                <div class="hour" id="hr3"></div>
+                        </div>
+                        <div class="mssg left">
+                            <div class="textmssg" id="txtn4">Need help with some code</div>
+                            <div class="hour" id="hr4">11:59</div>
+                        </div>
+                        <div class="mssg left">
+                            <div class="textmssg" id="txtn5">could you come</div>
+                            <div class="hour" id="hr5">12:00</div>
+                        </div>
+                        <div class="mssg left">
+                                <div class="textmssg" id="txtn6"></div>
+                                <div class="hour" id="hr6"></div>
+                        </div>
+                        <div class="mssg left">
+                            <div class="textmssg" id="txtn7">yeah please</div>
+                            <div class="hour" id="hr7">12:01</div>
+                        </div>
+                        <div class="mssg left">
+                                <div class="textmssg" id="txtn8"></div>
+                                <div class="hour" id="hr8"></div>
+                        </div>
+                        <div class="mssg left">
+                            <div class="textmssg" id="txtn9">thank youuu</div>
+                            <div class="hour" id="hr9">12:06</div>
+                        </div>
+                        <div class="mssg left">
+                                <div class="textmssg" id="txtn10"></div>
+                                <div class="hour" id="hr10"></div>
+                        </div>
+                        <div class="mssg left">
+                                <div class="textmssg" id="txtn11"></div>
+                                <div class="hour" id="hr11"></div>
+                        </div>
+
+                    </div>
+                    <div id="middle"></div>
+                    <div id="right">
+                        <div class="mssg right">
+                                <div class="textmssg" id="txtn12"></div>
+                                <div class="hour" id="hr12"></div>
+                        </div>
+                        <div class="mssg right">
+                            <div class="textmssg" id="txtn13">Yeah</div>
+                            <div class="hour" id="hr13">11:56</div>
+                        </div>
+                        <div class="mssg right">
+                            <div class="textmssg" id="txtn14">why tho?</div>
+                            <div class="hour" id="hr14">11:56</div>
+                        </div>
+                        <div class="mssg right">
+                                <div class="textmssg" id="txtn15"></div>
+                                <div class="hour" id="hr15"></div>
+                        </div>
+                        <div class="mssg right">
+                                <div class="textmssg" id="txtn16"></div>
+                                <div class="hour" id="hr16"></div>
+                        </div>
+                        <div class="mssg right">
+                            <div class="textmssg" id="txtn17">like now?</div>
+                            <div class="hour" id="hr17">12:01</div>
+                        </div>
+                        <div class="mssg right">
+                                <div class="textmssg" id="txtn18"></div>
+                                <div class="hour" id="hr18"></div>
+                        </div>
+                        <div class="mssg right">
+                            <div class="textmssg"id="txtn19">ok be there in a minute</div>
+                            <div class="hour" id="hr19">12:05</div>
+                        </div>
+                        <div class="mssg right">
+                                <div class="textmssg" id="txtn20"></div>
+                                <div class="hour" id="hr20"></div>
+                        </div>
+                        <div class="mssg right">
+                            <div class="textmssg" id="txtn21">no problem </div>
+                            <div class="hour" id="hr21">12:10</div>
+                        </div>
+                        <div class="mssg right">
+                                <div class="textmssg" id="txtn22"></div>
+                                <div class="hour" id="hr22"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div id="input">
+                    <input id="bar" type="text" placeholder="Type your message">
+                    <button id="send" onclick="erase()"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
